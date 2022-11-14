@@ -1,5 +1,5 @@
 {% set name = "smi-analysis" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/smi-analysis-{{ version }}.tar.gz
-  sha256: e9fa1b9c197268ba29e91519f7b4d6b1a35758fa4f9094792732b868cabb644a
+  sha256: a9c4e786ec2e8c0eca4136b4b685a5027419b6b49f46c7db2f740fbfa0bc1f64
 
 build:
   number: 0
@@ -16,14 +16,14 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
   run:
-    - python >=3.6
+    - python >=3.7
     - h5py
     - numpy
     - pyfai
-    - pygix
+    - pygix >=2022.11.14
     - scipy
     - xarray
 
@@ -32,10 +32,8 @@ test:
     - smi_analysis
     - smi_analysis.tests
   commands:
-    - pip check
     - pytest --pyargs smi_analysis.tests
   requires:
-    - pip
     - pytest
 
 about:
@@ -47,3 +45,4 @@ about:
 extra:
   recipe-maintainers:
     - mrakitin
+    - gfreychet
