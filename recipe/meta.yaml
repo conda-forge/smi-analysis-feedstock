@@ -1,5 +1,5 @@
 {% set name = "smi-analysis" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/smi-analysis-{{ version }}.tar.gz
-  sha256: a9c4e786ec2e8c0eca4136b4b685a5027419b6b49f46c7db2f740fbfa0bc1f64
+  sha256: 7b12febc1c97f415314aad183d4220867c790cff6f1c2c65de23fa942117a435
 
 build:
   number: 0

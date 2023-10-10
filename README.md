@@ -1,11 +1,11 @@
-About smi-analysis
-==================
+About smi-analysis-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/smi-analysis-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/NSLS-II-SMI/smi-analysis
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/smi-analysis-feedstock/blob/main/LICENSE.txt)
 
 Summary: Scientific Python for data analysis at the Soft Matter Interface (SMI) beamline at NSLS-II
 
