@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/smi-analysis-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/smi_analysis-{{ version }}.tar.gz
   sha256: 7192d11070ac19350684af2d5b95df7d6d0a5b099ebabbc1f5ac17c73adf3638
 
 build:
